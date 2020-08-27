@@ -12,7 +12,9 @@
                         <div class="col-md-6">
                             <loading-button-form></loading-button-form>
                         </div>
-                        <div class="col-md-6"></div>
+                        <div class="col-md-6">
+                            <loading-overlay-form></loading-overlay-form>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -24,6 +24,7 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
-        "vue-loading-button": "^0.2.0"
+        "vue-loading-button": "^0.2.0",
+        "vue-loading-overlay": "^3.3.4"
     }
 }
