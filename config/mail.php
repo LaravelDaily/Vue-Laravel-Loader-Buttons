@@ -107,4 +107,6 @@ return [
         ],
     ],
 
+    'contact_email' => env('CONTACT_FORM_EMAIL', 'admin@admin.com'),
+
 ];
