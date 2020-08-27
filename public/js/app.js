@@ -37695,7 +37695,7 @@ var render = function() {
       ]),
       _vm._v(" "),
       _c("VueLoadingButton", {
-        attrs: { styled: true, loading: _vm.loading },
+        attrs: { styled: true, loading: _vm.isLoading },
         nativeOn: {
           click: function($event) {
             return _vm.submitForm($event)
@@ -37703,7 +37703,7 @@ var render = function() {
         }
       }),
       _vm._v(" "),
-      _vm.success
+      _vm.isSuccess
         ? _c("div", { staticClass: "alert alert-success my-2" }, [
             _vm._v("\n        Email successfully sent\n    ")
           ])

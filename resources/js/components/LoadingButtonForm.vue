@@ -42,11 +42,11 @@
 
         <VueLoadingButton
             :styled="true"
-            :loading="loading"
+            :loading="isLoading"
             @click.native="submitForm"
         ></VueLoadingButton>
 
-        <div class="alert alert-success my-2" v-if="success">
+        <div class="alert alert-success my-2" v-if="isSuccess">
             Email successfully sent
         </div>
     </form>
